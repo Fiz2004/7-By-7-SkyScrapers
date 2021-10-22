@@ -144,10 +144,10 @@ function generateTable(cashClues, clues, table = [], indexRow = 0) {
 		}
 }
 
-function compare(currentClues, StandartClues) {
+function compare(currentClues, standartClues) {
 	for (let i = 0; i < currentClues.length; i++) {
-		if (StandartClues[i] !== 0)
-			if (currentClues[i] !== StandartClues[i])
+		if (standartClues[i] !== 0)
+			if (currentClues[i] !== standartClues[i])
 				return false
 	}
 	return true;
